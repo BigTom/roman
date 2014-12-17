@@ -1,6 +1,9 @@
 # roman
 
-FIXME: description
+Roman Numeral calculator.
+
+Algorithms described here:
+http://turner.faculty.swau.edu/mathematics/materialslibrary/roman/
 
 ## Installation
 
