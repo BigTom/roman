@@ -3,6 +3,10 @@
             [roman.core :refer :all]))
 
 (deftest simple-addition
-  (is (= "II" (add "I" "I"))))
+  (is (= "II" (add "I" "I")))
+  (is (= "VI" (add "V" "I"))) 
+  (is (= "XI" (add "X" "I")))
+  (is (= "XV" (add "X" "V")))
+  )
 
 (run-tests 'roman.core-test)
