@@ -9,4 +9,8 @@
   (is (= "XV" (add "X" "V")))
   )
 
+(deftest subtractive-addition
+  (is (= "IIIII" (add "IV" "I")))
+  )
+
 (run-tests 'roman.core-test)
